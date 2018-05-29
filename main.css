@@ -1,0 +1,230 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: Roboto;
+  	font-size: 14px;
+  	color: #424242;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*
+ *
+ *
+ Sections
+ *
+ *
+ */
+
+main {
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.colors {
+	order: 0;
+	width: 25%;
+	margin-right: 0;
+}
+
+.content {
+	order: 1;
+	width: 75%;
+	margin-right: auto;
+}
+
+
+/*
+ *
+ *
+  Header
+ *
+ *
+ */
+
+.header {
+	min-height: 56px;
+  	transition: min-height 0.3s;
+}
+
+.header_inner {
+	width: 100%;
+  	margin-right: auto;
+}
+
+.header_logo {
+	height: 70px;
+  	vertical-align: top;
+  	margin-top: 7%;
+}
+
+.name_title {
+	margin-top: 7.9%;
+	float: right;
+	margin-right: 15%;
+	display: inline-block;
+    color: #2d3c49;
+}
+
+.header_name {
+	font-weight: 100;
+	font-size: 2.4em;
+	margin: 0;
+	padding: 0;
+}
+
+.header_title {
+	font-weight: 100;
+	font-size: 1.2em;
+	margin-top: 0.7em;
+	float: right;
+	padding: 0;
+}
+
+.line {
+	clear: right;
+    position: absolute;
+	width: 63.5%;
+	border-top: 4px solid #7d97ad;
+	margin-top: 1%;
+}
+/*
+ *
+ *
+ Flower
+ *
+ *
+ */
+
+.flower {
+	position: relative;
+	background-image: url("./images/flower1.jpg");
+    background-size: cover;
+    width: 85%;
+    height: 450px;
+    margin: 2.5em 0 0 0;
+}
+
+.description {
+	color: #FFFFFF;
+	font-family: 'Cinzel Decorative',papyrus;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	width: 250px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 1em;
+	right: 25em;
+	bottom: 10em;
+	top: 3em;
+}
+
+/*
+ *
+ *
+ Work
+ *
+ *
+ */
+
+.work {
+	color: #7d97ad;
+	font-size: 2.2em;
+	font-weight: 100;
+	font-family: Georgia;
+	margin-bottom: 0;
+
+}
+
+.flowers {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.work_flower {
+	width: 29.3%;
+	padding-top: 1.2em;
+	padding-right : 1.5em;
+}
+
+.name {
+	text-align: center;
+	font-size: 1.3em;
+	padding: 0;
+	margin-top: 0.2em;
+	margin-bottom: 0;
+
+}
+
+.link_text {
+	text-align: center;
+	font-size: 1em;
+	padding: 0;
+	margin-top: 0.5em;
+}
+
+.daisy, .rose {
+	width: 100%;
+	height: 59%;
+}
+
+.sunflower {
+	height: 59%;
+}
+
+.work_flower:last-of-type {
+		padding-right: 0;
+}
+
+/*
+ *
+ *
+ Colors
+ *
+ *
+ */
+
+.used_colors{
+	display: inline-block;
+}
+
+.square {
+	height: 70px;
+	width: 70px;
+	margin-left: 9em;
+}
+
+.grey {
+	background-color: #7d97ad;
+	margin-top: 11em;
+}
+
+.white {
+	border: 1px solid #E8E2E2;
+	background-color: #FFFFFF;
+}
+
+.black {
+	background-color: #2d3c49;
+}
+
+.brown {
+	background-color: #424242;
+}
+
+.hex_code {
+	font-size: 1.5em;
+	color: #5B5858;
+	margin-top: 0.4em;
+	margin-left: 5.5em;
+}
+
