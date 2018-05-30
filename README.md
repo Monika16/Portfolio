@@ -8,4 +8,8 @@ Portfolio is a HTML-CSS project. It uses grid-based layout.
   * main.css - it contains the basic styling of the HTML page.
   * responsive.css - it contains the responsive design i.e. the media queries.
 
+## Execution
+* Download the project. 
+* Open the Portfolio project.
+* Open index.html with browser.
 
