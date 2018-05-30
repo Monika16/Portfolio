@@ -11,5 +11,5 @@ Portfolio is a HTML-CSS project. It uses grid-based layout.
 ## Execution
 * Download the project. 
 * Open the Portfolio project.
-* Open index.html with browser.
+* Open index.html with browser to view the page.
 
